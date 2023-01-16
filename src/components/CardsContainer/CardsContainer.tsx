@@ -9,13 +9,21 @@ const CardsContainer = () => {
       {
         content.map((item) =>
         <>
-          <Spacer height={20}/>
-          <div className="card-container">
-            <a href={item.href} target="_blank" rel="noreferrer">
-              {/* <img src={item.src} alt={item.alt}/> */}
-              {item.text}
+          {item.show && 
+          <>
+            <Spacer height={20}/>
+            <a
+            href={item.href}
+            target="_blank"
+            rel="noreferrer"
+            >
+              <button
+              className="card-container"
+              >
+                {item.text}
+              </button>
             </a>
-          </div>
+          </>}
         </>)
       }
     </>
