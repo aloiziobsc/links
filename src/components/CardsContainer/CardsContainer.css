@@ -1,4 +1,4 @@
-.card-container {
+.button-container {
   margin: auto;
   background-color: #f3f1f5;
   color: #275257;
@@ -12,8 +12,8 @@
   width: 85%;
 }
 
-.card-container:hover {
-  font-size: 19px;
+.button-container:hover {
+  opacity: 0.85;
   transition: 400ms;
 }
 

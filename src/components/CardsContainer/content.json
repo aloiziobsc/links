@@ -1,15 +1,18 @@
 [
   {
+    "id": 1,
     "href": "https://github.com/aloiziobsc",
     "text": "GitHub",
     "show": true
   },
   {
+    "id": 2,
     "href": "https://www.linkedin.com/in/aloiziobsc/",
     "text": "LinkedIn",
     "show": true
   },
   {
+    "id": 3,
     "href": "https://api.whatsapp.com/send?phone=5534998068186&text=Hi%20there!",
     "text": "WhatsApp",
     "show": true

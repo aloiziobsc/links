@@ -10,7 +10,7 @@ const CardsContainer = () => {
         content.map((item) =>
         <>
           {item.show && 
-          <>
+          <div key={item.id}>
             <Spacer height={20}/>
             <a
             href={item.href}
@@ -18,12 +18,12 @@ const CardsContainer = () => {
             rel="noreferrer"
             >
               <button
-              className="card-container"
+              className="button-container"
               >
                 {item.text}
               </button>
             </a>
-          </>}
+          </div>}
         </>)
       }
     </>
